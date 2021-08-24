@@ -1,0 +1,73 @@
+header {
+    overflow: hidden;
+    background-color: gray;
+}
+  
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#contentBox {
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+#contentBox p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: black;
+}
+
+#contentBox h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button {
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#hsButton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: start;
+}
+
+input {
+    width: 20%;
+    padding: 15px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#highscores{
+    overflow: hidden;
+    background-color: #4A6C6F;
+    margin: 10px;
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+} 
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+}
